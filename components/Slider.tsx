@@ -32,7 +32,7 @@ export default function Slider() {
           </p>
 
           <button className="w-80 min-h-12 p-5 group   text-negro bg-primario mb-20 font-bold uppercase hover:font-semibold  mt-16 rounded-full flex justify-center gap-4 hover:scale-105 transition-transform duration-200 ease-in-out">
-            <Link href="" aria-label="Hablar con un asesor">
+            <Link href="#" aria-label="Hablar con un asesor">
               Hablar con un asesor
             </Link>
             <Icon
