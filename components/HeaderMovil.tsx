@@ -172,9 +172,10 @@ export default function HeaderMovil() {
           </li>
 
           <div className="mt-10 text-14px">
-            <button className="w-full p-3 bg-verde mt-5 rounded-2xl text-blanco text-16px flex items-center justify-center gap-2">
+            <button className="w-full p-3 bg-negro mt-5 rounded-2xl text-blanco text-16px flex items-center justify-center gap-2">
               Hablemos por whatsapp
-              <Icon icon="ic:round-whatsapp" width="24" height="24" />
+              <Icon icon="ic:round-whatsapp" width="24" height="24"
+              className="text-verde" />
             </button>
           </div>
         </ul>
