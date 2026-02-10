@@ -20,7 +20,7 @@ export default function IndexPage() {
         aria-labelledby="sobre-nosotros"
         className="w-full mt-20 max-w-7xl mx-auto p-5 grid grid-cols-1 lg:grid-cols-2"
       >
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-10">
           <Image
             src="/images/imagen_sobre_nosotros.webp"
             width={500}
@@ -193,9 +193,9 @@ export default function IndexPage() {
             width="600"
             height="450"
             style={{ border: 0 }}
-            allowFullScreen={true}
+            allowFullScreen={false}
             loading="lazy"
-            className="rounded-4xl"
+            className="rounded-4xl w-full"
             referrerPolicy="strict-origin-when-cross-origin"
           ></iframe>
           </div>
