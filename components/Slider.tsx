@@ -13,7 +13,7 @@ export default function Slider() {
     <div className="bg-[url('/images/imagen_1.webp')] relative bg-cover bg-center min-h-screen w-full">
       <div className="absolute inset-0 bg-negro opacity-40 z-0" />
       <div className="w-full max-w-7xl mx-auto p-3 relative z-20">
-        <section className="container mt-32 z-50">
+        <section className="container flex flex-col justify-center  mt-32 z-50">
           <h1
             className={`${poppins.className} mt-36 text-32px leading-9 sm:max-w-xl sm:text-40px md:text-48px  sm:leading-11 md:leading-12  lg:max-w-3xl lg:text-58px lg:leading-14 text-blanco font-bold`}
           >

@@ -5,8 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
+
+  
+
+
+
   return (
-    <footer className="max-w-7xl w-full mx-auto">
+    <footer className="max-w-7xl w-full mx-auto mt-32">
       <div className="grid grid-cols-1 lg:grid-cols-4 p-3 gap-7">
         <div className="mt-5 flex flex-col gap-4">
           <Link href="">
@@ -167,7 +172,7 @@ export default function Footer() {
 
         <p>
             Desarrollado por <a href="https://kenerdev.com" aria-label="Visitar página de kenerdev" target="_blank" 
-            className="underline text-negro/80 font-semibold italic text-14px">KenerDev</a>
+            className="underline text-negro/80 font-semibold italic text-14px">KCM smart</a>
         </p>
 
     </div>
