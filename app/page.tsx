@@ -15,7 +15,7 @@ export default function IndexPage() {
       <Slider />
 
       {/* Sobre Nosotros */}
-      <section aria-labelledby="sobre-nosotros" className="w-full mt-20 max-w-7xl mx-auto p-3 grid grid-cols-1 md:grid-cols-2">
+      <section aria-labelledby="sobre-nosotros" className="w-full mt-20 max-w-7xl mx-auto p-3 grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="flex flex-col">
           <Image
             src="/images/imagen_sobre_nosotros.webp"
@@ -26,14 +26,14 @@ export default function IndexPage() {
           ></Image>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mt-10">
           <h2 className="text-144px text-secundario   font-semibold">SOBRE NOSOTROS</h2>
-          <h3 className="text-3px lg:text-36px font-extrabold  text-secundario leading-tight">
+          <h3 className={`${poppins.className} text-32px  lg:text-36px font-extrabold  text-secundario leading-tight` }>
             Más que una agencia, somos tu socio estratégico en comercio exterior
           </h3>
 
-          <p className="text-16px text-gris leading-relaxed">
-            <strong className="text-secundario">Aurum Customs SAC</strong> es una agencia de aduanas en el Callao
+          <p className="text-16px  text-gris leading-relaxed">
+            <strong className="text-gris">Aurum Customs SAC</strong> es una agencia de aduanas en el Callao
             especializada en importación, exportación y comercio exterior.
             Brindamos agenciamiento de aduanas, asesoría estratégica y
             soluciones complementarias, garantizando cumplimiento SUNAT y
@@ -41,20 +41,20 @@ export default function IndexPage() {
           </p>
 
            {/* Beneficios */}
-          <div className="space-y-4 mt-5">
+          <div className="space-y-2 mt-3 ">
             <div className="flex items-start gap-3">
               <Icon icon="lets-icons:check-fill" width="24" height="24" className="text-secundario" />
-              <p className="text-gris">Cumplimiento normativo y prevención de riesgos</p>
+              <p className="text-gris font-semibold text-14px lg:text-16px italic">Cumplimiento normativo y prevención de riesgos</p>
             </div>
 
             <div className="flex items-start gap-3">
              <Icon icon="lets-icons:check-fill" width="24" height="24" className="text-secundario" />
-              <p className="text-gris">Optimización de tiempos y costos operativos</p>
+              <p className="text-gris font-semibold text-14px lg:text-16px italic">Optimización de tiempos y costos operativos</p>
             </div>
 
             <div className="flex items-start gap-3">
               <Icon icon="lets-icons:check-fill" width="24" height="24" className="text-secundario" />
-              <p className="text-gris">Acompañamiento estratégico personalizado</p>
+              <p className="text-gris font-semibold text-14px lg:text-16px italic">Acompañamiento estratégico personalizado</p>
             </div>
           </div>
          

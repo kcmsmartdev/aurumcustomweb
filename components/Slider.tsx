@@ -19,7 +19,7 @@ export default function Slider() {
           >
             Agencia de Aduanas, Importación y Exportación en el Callao
           </h1>
-          <p className="text-16px md:text-18px text-blancoTexto mt-10 max-w-2xl">
+          <p className="text-18px font-medium text-blancoTexto mt-10 max-w-2xl">
             Agencia de aduanas en el Callao especializada en agenciamiento de
             aduanas, asesoría en comercio exterior e importación y exportación,
             cumpliendo SUNAT. Perú
