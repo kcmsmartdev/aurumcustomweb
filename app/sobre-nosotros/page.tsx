@@ -242,7 +242,7 @@ export default function NosotrosPage() {
                   width="600"
                   height="450"
                   style={{ border: 0 }}
-                  allowFullScreen={false}
+                  
                   loading="lazy"
                   className="rounded-4xl"
                   referrerPolicy="strict-origin-when-cross-origin"
