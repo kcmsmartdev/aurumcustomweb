@@ -242,9 +242,8 @@ export default function NosotrosPage() {
                   width="600"
                   height="450"
                   style={{ border: 0 }}
-                  
                   loading="lazy"
-                  className="rounded-4xl"
+                  className="rounded-4xl w-full"
                   referrerPolicy="strict-origin-when-cross-origin"
                 ></iframe>
                 </div>
