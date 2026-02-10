@@ -36,7 +36,7 @@ export default function IndexPage() {
           <h2 className="text-14px text-secundario  border-l-2 px-1  font-semibold">
             SOBRE NOSOTROS
           </h2>
-          <h3 className="text-3px lg:text-36px font-extrabold  text-secundario leading-tight">
+          <h3 className={`${poppins.className} text-3px lg:text-36px font-extrabold  text-secundario leading-tight`}>
             Más que una agencia, somos tu socio estratégico en comercio exterior
           </h3>
 
@@ -105,7 +105,7 @@ export default function IndexPage() {
         <h2 className="text-14px text-secundario border-l-2 px-1   font-semibold">
           NUESTROS SERVICIOS
         </h2>
-        <h3 className="text-3px lg:text-36px font-extrabold  text-secundario leading-tight">
+        <h3 className={`${poppins.className} text-3px lg:text-36px font-extrabold  text-secundario leading-tight`}>
           Soluciones Integrales 360 en Agenciamiento de Aduanas
         </h3>
 
@@ -177,7 +177,7 @@ export default function IndexPage() {
           <h2 className="text-14px text-secundario border-l-2 px-1   font-semibold">
             CONTACTO
           </h2>
-          <h3 className="text-3px lg:text-36px mt-4 font-extrabold   text-secundario leading-tight">
+          <h3 className={`${poppins.className} text-3px lg:text-36px font-extrabold  text-secundario leading-tight`}>
             Contáctanos para una cotización personalizada
           </h3>
           <p className="text-16px text-gris leading-relaxed mt-5">

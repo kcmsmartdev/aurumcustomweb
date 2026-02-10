@@ -99,7 +99,7 @@ export default function HeaderMovil() {
           <div className="flex justify-between items-center">
             <li>
               <Link
-                href="/servicios"
+                href="/servicios/agenciamiento-de-aduanas-especializado"
                 onClick={() => setOpen(false)}
                 className={
                   pathname === "/servicios"

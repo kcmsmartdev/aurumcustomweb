@@ -66,7 +66,7 @@ export default function HeaderPC() {
 
           <li className="group relative hover:scale-105  hover:font-medium transition-transform duration-200 ease-out">
             <Link
-              href="/servicios"
+              href="/servicios/agenciamiento-de-aduanas-especializado"
               className={isServicios ? "text-secundario" : "text-negro hover:text-secundario transition-transform duration-200 ease-out"}
             >
               Servicios
