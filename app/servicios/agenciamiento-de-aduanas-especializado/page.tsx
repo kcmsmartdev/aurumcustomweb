@@ -17,7 +17,7 @@ const shadow = Shadows_Into_Light_Two({
 export default function Servicio1() {
   return (
     <div>
-      <div className="bg-[url('/images/sobre-nosotros.webp')] relative bg-cover bg-center  bg-no-repeat min-h-80 w-full mt-20">
+      <div className="bg-[url('/images/sobre-nosotros.webp')] relative bg-cover bg-center  bg-no-repeat min-h-80 w-full mt-20" >
         <div className="bg-negro opacity-50 w-full h-full absolute z-10 " />
         <div className="w-full max-w-7xl mx-auto p-3 relative z-20 flex flex-col justify-center">
           <div className="w-full h-full flex flex-col justify-center mt-20">
@@ -38,13 +38,8 @@ export default function Servicio1() {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-    
-    <section className="w-full max-w-7xl mx-auto mt-24 flex flex-col items-center">
-=======
 
       <div className="w-full max-w-7xl mx-auto mt-24 flex flex-col items-center">
->>>>>>> be9a3a815a55cebb95cc5c2f7e3fa91771d9f635
         <div className="text-center flex justify-center">
           <h1
             className={`${shadow.className} container max-w-3xl  text-28px font-medium`}
@@ -53,15 +48,9 @@ export default function Servicio1() {
             necesidades logísticas y aduaneras."
           </h1>
         </div>
-<<<<<<< HEAD
-
-        
-    </section>
-=======
       </div>
->>>>>>> be9a3a815a55cebb95cc5c2f7e3fa91771d9f635
 
-      <div className="w-full max-w-7xl mx-auto p-5 grid grid-cols-1 lg:grid-cols-2 gap-5 mt-32 bg-gris/5 rounded-4xl">
+      <div className="w-full max-w-7xl mx-auto p-5 grid grid-cols-1 lg:grid-cols-2 gap-5 mt-32 py-16 bg-gris/5 rounded-4xl ">
         <div className="flex flex-col gap-4">
           <h2
             className={`${poppins.className} text-32px lg:text-36px font-extrabold  text-secundario leading-tight`}

@@ -11,7 +11,7 @@ export default function Footer() {
 
 
   return (
-    <footer className="bg-grisClaro">
+    <footer className="bg-grisClaro w-full">
      <div className="max-w-7xl w-full mx-auto mt-32 py-5">
          <div className="grid grid-cols-1 lg:grid-cols-4 p-3 gap-7">
         <div className="mt-5 flex flex-col gap-4">

@@ -52,7 +52,7 @@ export default function Servicio1() {
         </div>
       </div>
 
-      <div className="w-full max-w-7xl mx-auto p-5 grid grid-cols-1 lg:grid-cols-2 gap-5 mt-32 bg-gris/5 rounded-4xl">
+      <div className="w-full max-w-7xl mx-auto p-5 grid grid-cols-1 lg:grid-cols-2 gap-5 mt-32 py-16 bg-gris/5 rounded-4xl">
         <div className="flex flex-col gap-4">
           <h2
             className={`${poppins.className} text-32px lg:text-36px font-extrabold  text-secundario leading-tight`}

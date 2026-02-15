@@ -32,9 +32,9 @@ export default function HeaderPC() {
           <Image
             src="/logo_pc.svg"
             alt="logo Aurum Customs"
-            width={208}
-            height={63}
-            className="w-52 h-auto"
+            width={200}
+            height={55}
+            className="w-48 h-auto"
             aria-label="logo Aurum Customs"
             loading="eager"
             fetchPriority="high"

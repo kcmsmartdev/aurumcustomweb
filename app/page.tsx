@@ -100,7 +100,7 @@ export default function IndexPage() {
       {/* Nuestros servicios */}
       <section
         aria-labelledby="sobre-servicios"
-        className="w-full mt-20 max-w-7xl mx-auto p-5 flex flex-col items-center gap-4"
+        className="w-full mt-20 max-w-7xl mx-auto p-5 flex flex-col items-center gap-4 bg-grisClaro py-12 rounded-4xl "
       >
         <h2 className="text-14px text-secundario border-l-2 px-1   font-semibold">
           NUESTROS SERVICIOS
@@ -171,7 +171,7 @@ export default function IndexPage() {
 
       <section
         aria-labelledby="contacto"
-        className="w-full mt-20 max-w-7xl mx-auto p-5 grid grid-cols-1 lg:grid-cols-2 items-center gap-10"
+        className="w-full mt-32 max-w-7xl mx-auto p-5 grid grid-cols-1 lg:grid-cols-2 items-center gap-10"
       >
         <div>
           <h2 className="text-14px text-secundario border-l-2 px-1   font-semibold">
