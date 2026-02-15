@@ -18,7 +18,7 @@ const shadow = Shadows_Into_Light_Two({
 export default function NosotrosPage() {
   return (
     <div>
-      <div className="bg-[url('/images/sobre-nosotros.webp')] relative bg-cover min-h-72 w-full mt-20">
+      <div className="bg-[url('/images/sobre-nosotros.webp')] relative bg-cover bg-center  bg-no-repeat min-h-80 w-full mt-20">
         <div className="bg-negro opacity-50 w-full h-full absolute z-10 " />
         <div className="w-full max-w-7xl mx-auto p-3 relative z-20 flex flex-col justify-center">
           <div className="w-full h-full flex flex-col justify-center mt-20">
@@ -53,7 +53,7 @@ export default function NosotrosPage() {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-32">
           <div className="flex flex-col gap-4">
             <h2 className="text-14px text-secundario  border-l-2 px-1  font-semibold">
               SOBRE NOSOTROS
@@ -153,7 +153,7 @@ export default function NosotrosPage() {
         <h2 className="text-14px text-secundario border-l-2 px-1   font-semibold">
           NUESTROS SERVICIOS
         </h2>
-        <h3 className={`${poppins.className} text-3px lg:text-36px font-extrabold  text-secundario leading-tight`}>
+        <h3 className={`${poppins.className} text-32px lg:text-36px font-extrabold  text-secundario leading-tight`}>
           Soluciones Integrales 360 en Agenciamiento de Aduanas
         </h3>
 

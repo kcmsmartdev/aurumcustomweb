@@ -61,19 +61,19 @@ export default function Footer() {
             </li>
 
             <li className="flex gap-1 items-center text-gris font-normal text-16px hover:text-secundario">
-              <Link href={"/contacto"} aria-label="Sobre nosotros">
+              <Link href={"/termino-y-condiciones"} aria-label="Sobre nosotros">
                 Términos y condiciones
               </Link>
             </li>
 
             <li className="flex gap-1 items-center text-gris font-normal text-16px hover:text-secundario">
-              <Link href={"/contacto"} aria-label="Sobre nosotros">
+              <Link href={"/politica-cookies"} aria-label="Sobre nosotros">
                 Política de cookies
               </Link>
             </li>
 
             <li className="flex gap-1 items-center text-gris font-normal text-16px hover:text-secundario">
-              <Link href={"/contacto"} aria-label="Sobre nosotros">
+              <Link href={"/privacidad-de-datos"} aria-label="Sobre nosotros">
                 Política de privacidad de datos
               </Link>
             </li>
