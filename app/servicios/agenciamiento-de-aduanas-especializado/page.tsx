@@ -38,7 +38,7 @@ export default function Servicio1() {
         </div>
       </div>
     
-    <div className="w-full max-w-7xl mx-auto mt-24 flex flex-col items-center">
+    <section className="w-full max-w-7xl mx-auto mt-24 flex flex-col items-center">
         <div className="text-center flex justify-center">
           <h1
             className={`${shadow.className} container max-w-3xl  text-28px font-medium`}
@@ -46,7 +46,9 @@ export default function Servicio1() {
             "Diseñamos una oferta de servicios completa para cubrir todas tus necesidades logísticas y aduaneras."
           </h1>
         </div>
-    </div>
+
+        
+    </section>
 
     </div>
   );

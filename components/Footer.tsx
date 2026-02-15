@@ -11,8 +11,9 @@ export default function Footer() {
 
 
   return (
-    <footer className="max-w-7xl w-full mx-auto mt-32">
-      <div className="grid grid-cols-1 lg:grid-cols-4 p-3 gap-7">
+    <footer className="bg-grisClaro">
+     <div className="max-w-7xl w-full mx-auto mt-32 py-5">
+         <div className="grid grid-cols-1 lg:grid-cols-4 p-3 gap-7">
         <div className="mt-5 flex flex-col gap-4">
           <Link href="">
             <Image
@@ -176,6 +177,7 @@ export default function Footer() {
         </p>
 
     </div>
+     </div>
     </footer>
   );
 }
